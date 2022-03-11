@@ -2,11 +2,21 @@ POST http://localhost:3000/register/
 Content-Type: application/json
 
 {
-  "username": "kiran",
-  "name": "Kiran",
-  "password": "kiran123",
+  "username": "kdsfgsdfgrn",
+  "name": "kssdfgsdfgrn",
+  "password": "kishd",
   "gender": "male",
-  "location": "Detroit"
+  "location": "Detroitasdfasd"
+}
+
+###
+
+GET http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "kishore",
+  "password": "kishore123"
 }
 
 ###
@@ -15,8 +25,8 @@ POST http://localhost:3000/login/
 Content-Type: application/json
 
 {
-  "username": "adam_richard",
-  "password": "richard_567"
+  "username": "kishore",
+  "password": "kishore123"
 }
 
 ###
@@ -25,9 +35,9 @@ PUT http://localhost:3000/change-password/
 Content-Type: application/json
 
 {
-  "username": "adam_richard",
-  "oldPassword": "richard_567",
-  "newPassword": "richard@123"
+  "username": "kishore",
+  "oldPassword": "kishore123",
+  "newPassword": "kishore1234"
 }
 
 ###
